@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
-      <a class="navbar-brand" href="#">Gold Rehab Services</a>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="/">Gold Rehab Services</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -10,13 +10,15 @@
           <router-link class="nav-item nav-link" to="/">Home</router-link>
           <span class="nav-link">|</span>
           <router-link class="nav-item nav-link" to="/about">Who we are</router-link>
+          <span class="nav-link">|</span>
+          <router-link class="nav-item nav-link" to="/location">Where we are</router-link>
+          <span class="nav-link">|</span>
+          <router-link class="nav-item nav-link" to="/contact">Contact Us</router-link>
         </div>
         <span class="navbar-text">
           Make an appointment today! 
             <i class="fa fa-phone" />
-            <a href="tel:888-555-1212">&nbsp;(888) 555-1212&nbsp;</a>
-            <i class="fa fa-envelope-o" />
-            <a href="mailto:a@abc.com">&nbsp;a@abc.com</a>
+            <a href="tel:888-555-1212">&nbsp;(847) 312-2238&nbsp;</a>
         </span>
       </div>
     </nav>
@@ -29,10 +31,12 @@ body {
   background-image: url('./assets/background.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: Montserrat, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -50,5 +54,14 @@ body {
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+nav {
+  background-color: #498899;
+}
+
+.navbar-light a.navbar-brand {
+  font-weight: bold;
+  color: #AE8930;
 }
 </style>
