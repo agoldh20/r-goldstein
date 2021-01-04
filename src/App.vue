@@ -17,8 +17,8 @@
         </div>
         <span class="navbar-text">
           Make an appointment today! 
-            <i class="fa fa-phone" />
-            <a href="tel:888-555-1212">&nbsp;(847) 312-2238&nbsp;</a>
+          <i class="fa fa-phone" />
+          <a href="tel:888-555-1212">&nbsp;(847) 312-2238&nbsp;</a>
         </span>
       </div>
     </nav>

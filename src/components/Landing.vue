@@ -1,5 +1,36 @@
 <template>
   <div class="landing">
+    <div class="container">
+      <div class="card">
+        <div class="card-header text-white bg-danger">
+          COVID-19 DISCLAIMER
+        </div>
+        <div class="card-body">
+          <blockquote class="blockquote mb-0">
+            <p>
+              The health and safety of our patients and staff is of the utmost importance to us. To ensure a safe environment that promotes wellness, we follow all COVID-19 CDC guidelines. We ask that you please:
+              <br>
+              <ol style="text-align: left;">
+                <li>
+                  Please wear a mask or face covering that covers your nose and mouth while at the clinic.
+                </li>
+                <li>
+                  Wash your hands or use hand sanitizer as soon as you arrive for your appointment.
+                </li>
+                <li>
+                  Please refrain from bringing someone with you to your appointment unless you need that person’s assistance to ambulate.
+                </li>
+              </ol> 
+              Most importantly, if you are experiencing a fever, cough, or shortness of breath, please do not come in for your appointment and inform us of your condition right away.
+              <br>
+              <br>
+              Thank you for helping keep you safe during these challenging times!  
+            </p>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+    <br>
     <div>
       <img src="@/assets/cora-storefront-image.jpg" alt="">
     </div>
