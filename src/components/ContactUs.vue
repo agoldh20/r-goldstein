@@ -8,13 +8,13 @@
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Phone</h5>
-          <a href="tel:847-312-2238">&nbsp;(847) 312-2238&nbsp;</a>
+          <a href="tel:847-312-2238">(847) 312-2238</a>
         </div>
       </div>
       <div class="card">
         <div class="card-body">
           <h5 class="card-title">Fax</h5>
-          <a href="tel:847-329-7215">&nbsp;(847) 329-7215&nbsp;</a>
+          <a href="tel:847-329-7215">(847) 329-7215</a>
         </div>
       </div>
       <div class="card">
