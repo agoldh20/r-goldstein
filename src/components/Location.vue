@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div class="location" id="map"></div>
+  <div class="">
+    <div id="map"></div>
     <br>
     <div class="location">
       We are located at: 
@@ -14,14 +14,21 @@
 </template>
 
 <style scoped>
+  #map {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 600px;
+    height: 400px;
+  }
+
   .location {
     font-weight: bold;
   }
 </style>
 
 <script>
-  // /* global mapbox-gl */
-
   import mapboxgl from "mapbox-gl";
   import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
   import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
@@ -64,14 +71,3 @@
     },
   };
 </script>
-
-<style>
-#map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  width: 600px;
-  height: 400px;
-}
-</style>

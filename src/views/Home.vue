@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <img alt="GRS Logo" src="@/assets/logo1-removebg.png" />
+    <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" alt="GRS Logo" src="@/assets/logo1-removebg.png" />
     <Landing />
   </div>
 </template>

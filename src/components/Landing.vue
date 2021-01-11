@@ -32,7 +32,7 @@
     </div>
     <br>
     <div>
-      <img src="@/assets/cora-storefront-image.jpg" alt="">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@/assets/cora-storefront-image.jpg" alt="">
     </div>
     <br>
     <div class="container">
@@ -56,16 +56,23 @@
               Conveniently located near Lincoln and Touhy. Just minutes from the Edens Expressway.
             </span>
           </p>
-          <div class="conditions">
-            <div class="header-text">
-              Conditions Treated
-            </div>
-            <br>
-            <div>
-              <ul class="injury-list fa-ul">
-                <li v-for="condition in conditions" v-bind:key="condition">
-                  <span class="fa-li"><i class="fas fa-star-of-life"></i></span>{{ condition }}</li>
-              </ul>
+          <div class="page-section cta">
+            <div class="container">
+              <div class="row">
+                <div class="col-xl-5 mx-auto">
+                  <div class="cta-inner text-rounded">
+                    <div class="header-text">
+                      Conditions Treated
+                    </div>
+                    <br>
+                    <div>
+                      <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
+                        <li class="list-unstyled-item list-hours-item d-flex" v-for="condition in conditions" v-bind:key="condition"><b>-&nbsp;</b>{{ condition }}</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -98,17 +105,10 @@ div.container {
   font-size: small;
 }
 
-.injury-list {
-  list-style-type: square;
-}
-
-.conditions {
+/*.conditions {
   width:35%;
   margin:0 auto;
   text-align:left;
-}
+  }*/
 
-li {
-  font-size: medium;
-}
 </style>
