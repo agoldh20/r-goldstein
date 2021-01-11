@@ -67,7 +67,8 @@
                     <br>
                     <div>
                       <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
-                        <li class="list-unstyled-item list-hours-item d-flex" v-for="condition in conditions" v-bind:key="condition"><b>-&nbsp;</b>{{ condition }}</li>
+                        <li class="list-unstyled-item list-hours-item d-flex" v-for="condition in conditions" v-bind:key="condition">
+                          <span class="fa-li"><i class="fas fa-star-of-life"></i></span>{{ condition }}</li>
                       </ul>
                     </div>
                   </div>
@@ -85,7 +86,32 @@
     name: "Landing",
     data: () => {
       return {
-        conditions: ["Arthritis","Back Pain & Sciatica","Balance & Gait Disorders","Chronic Pain","Elbow, Wrist, & Hand Pain","Fibromyalgia","Foot and Ankle Pain","Headaches","Hip Pain","Knee Pain","Motor Vehicle Injuries","Neck Pain","Neurological Disorders","Pre-Surgical Rehab","Post-COVID Recovery Programs","Post-Surgical Rehab","Scoliosis","Shoulder Pain","SI Dysfunction","Sports Injuries","Thoracic Pain","TMJ Dysfunction" ,"Vestibular Rehab","Work Injury"]
+        conditions: [
+          "Arthritis",
+          "Back Pain & Sciatica",
+          "Balance & Gait Disorders",
+          "Chronic Pain",
+          "Elbow, Wrist, & Hand Pain",
+          "Fibromyalgia",
+          "Foot and Ankle Pain",
+          "Headaches",
+          "Hip Pain",
+          "Knee Pain",
+          "Motor Vehicle Injuries",
+          "Neck Pain",
+          "Neurological Disorders",
+          "Pre-Surgical Rehab",
+          "Post-COVID Recovery Programs",
+          "Post-Surgical Rehab",
+          "Scoliosis",
+          "Shoulder Pain",
+          "SI Dysfunction",
+          "Sports Injuries",
+          "Thoracic Pain",
+          "TMJ Dysfunction",
+          "Vestibular Rehab",
+          "Work Injury"
+        ]
       }
     }
   };
@@ -104,11 +130,4 @@ div.container {
 .text-small {
   font-size: small;
 }
-
-/*.conditions {
-  width:35%;
-  margin:0 auto;
-  text-align:left;
-  }*/
-
 </style>

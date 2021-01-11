@@ -15,12 +15,7 @@
 
 <style scoped>
   #map {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5%;
-    width: 600px;
-    height: 400px;
+    height: 80vh;
   }
 
   .location {
@@ -54,7 +49,7 @@
       map.addControl(nav, "top-right");
 
 
-      map.on('load', () => {
+      map.on('load', (event) => {
         let directions = new MapboxDirections({
           accessToken: this.accessToken
         });
@@ -63,7 +58,7 @@
         directions.setOrigin('')
         directions.setDestination('7370 North Lincoln Avenue, Lincolnwood, Illinois 60712, United States')
 
-        map.resize()
+        event.map.resize()
       });
 
 
