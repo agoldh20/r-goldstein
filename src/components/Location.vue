@@ -49,7 +49,7 @@
       map.addControl(nav, "top-right");
 
 
-      map.on('load', (event) => {
+      map.on('load', () => {
         let directions = new MapboxDirections({
           accessToken: this.accessToken
         });
@@ -57,8 +57,6 @@
 
         directions.setOrigin('')
         directions.setDestination('7370 North Lincoln Avenue, Lincolnwood, Illinois 60712, United States')
-
-        event.map.resize()
       });
 
 
