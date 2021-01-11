@@ -1,6 +1,6 @@
 <template>
-  <div class="">
-    <div id="map"></div>
+  <div>
+    <div class="container" id="map"></div>
     <br>
     <div class="location">
       We are located at: 
@@ -62,6 +62,8 @@
 
         directions.setOrigin('')
         directions.setDestination('7370 North Lincoln Avenue, Lincolnwood, Illinois 60712, United States')
+
+        map.resize()
       });
 
 
