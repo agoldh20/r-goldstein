@@ -13,7 +13,7 @@
           <span class="nav-link">|</span>
           <router-link class="nav-item nav-link" to="/location">Where we are</router-link>
           <span class="nav-link">|</span>
-          <router-link class="nav-item nav-link" to="/contact">Contact Us</router-link>
+          <router-link class="nav-item nav-link" to="/contact"> Forms/Contact Us</router-link>
         </div>
         <span class="navbar-text">
           Make an appointment today! 

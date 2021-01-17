@@ -32,7 +32,7 @@
     </div>
     <br>
     <div>
-      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@/assets/cora-storefront-image.jpg" alt="">
+      <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="@/assets/grs-storefront-image.jpg" alt="">
     </div>
     <br>
     <div class="container">
@@ -117,17 +117,21 @@
   };
 </script>
 <style scoped>
-div.container {
-  color: #498899;
-  font-size: x-large;
-}
+  img {
+    max-width: 75%;
+    height: auto;
+  }
+  div.container {
+    color: #498899;
+    font-size: x-large;
+  }
 
-.header-text {
-  font-weight: bold;
-  font-size: xx-large;
-}
+  .header-text {
+    font-weight: bold;
+    font-size: xx-large;
+  }
 
-.text-small {
-  font-size: small;
-}
+  .text-small {
+    font-size: small;
+  }
 </style>
