@@ -28,6 +28,7 @@
     <h5>
       Forms
     </h5>
+    <a href="/forms/[...]" download></a>
   </div>
 </template>
 <script>
