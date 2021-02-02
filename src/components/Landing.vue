@@ -52,7 +52,7 @@
             <a href="/contact" class="btn btn-outline-dark">Contact us today for a complementary assessment!</a>
             <br>
             <br>
-            <span class="text-small">
+            <span class="text-small font-weight-bold font-italic">
               Conveniently located near Lincoln and Touhy. Just minutes from the Edens Expressway.
             </span>
           </p>
