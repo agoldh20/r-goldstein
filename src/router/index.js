@@ -7,33 +7,33 @@ import Location from "../views/Location.vue";
 
 Vue.use(VueRouter);
 
-const routes = [
-  {
-    path: "/",
-    name: "Home",
-    component: Home
-  },
-  {
-    path: "/about",
-    name: "About",
-    component: About
-  },
-  {
-    path: "/contact",
-    name: "Contact",
-    component: Contact
-  },
-  {
-    path: "/location",
-    name: "Location",
-    component: Location
-  }
-];
+// const routes = ;
 
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes
+  routes: [
+    {
+      path: "/",
+      name: "Home",
+      component: Home
+    },
+    {
+      path: "/about",
+      name: "About",
+      component: About
+    },
+    {
+      path: "/contact",
+      name: "Contact",
+      component: Contact
+    },
+    {
+      path: "/location",
+      name: "Location",
+      component: Location
+    }
+  ]
 });
 
 export default router;
