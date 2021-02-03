@@ -49,7 +49,7 @@
             At Gold Rehab Services, we pride ourselves in providing individualized care. We believe that by working with patients individually, we can quickly return them to the activities they love.
             <br>
             <br>
-            <a href="/contact" class="btn btn-outline-dark">Contact us today for a complementary assessment!</a>
+            <router-link to="/contact" class="btn btn-outline-dark">Contact us today for a complementary assessment!</router-link>
             <br>
             <br>
             <span class="text-small font-weight-bold font-italic">
