@@ -29,7 +29,6 @@
   import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
 
   export default {
-    name: "Location",
     data() {
       return {
         accessToken: process.env.VUE_APP_MAPBOX_ACCESS_TOKEN
