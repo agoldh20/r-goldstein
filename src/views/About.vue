@@ -4,8 +4,8 @@
     <div>
      <div class="card mb-3 mx-auto" style="max-width: 95%;">
        <div class="row no-gutters">
-         <div class="col-md-4">
-           <img src="@/assets/robert_goldstein_headshot.jpg" class="card-img" alt="Robert Goldstein">
+         <div class="col-md-4 d-flex align-items-center bg-light">
+           <img src="@/assets/robert_goldstein_headshot.jpg" class="card-img d-block mx-auto" alt="Robert Goldstein">
          </div>
          <div class="col-md-8">
            <div class="card-body">
@@ -26,3 +26,10 @@
   </div>
 </div>
 </template>
+<style scoped>
+  img {
+    width: 70%;
+    height: auto;
+  }
+</style>
+
