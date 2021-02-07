@@ -30,6 +30,14 @@ const router = new VueRouter({
       path: "/location",
       name: "location",
       component: Location
+    },
+    {
+      path: "/*",
+      redirect: {
+        path: "/",
+        name: "home",
+        component: Home
+      }
     }
   ]
 });
