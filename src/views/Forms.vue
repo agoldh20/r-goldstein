@@ -4,15 +4,13 @@
     <h5>
       Forms
     </h5>
-    <a href="/forms/[...]" download></a>
-    <h3 class="coming-soon">
-      *** Downloadable Forms will be added soon ***
-    </h3>
+    <br>
+    <a href="/forms/patientPaperwork.pdf" download><img class="small" src="@/assets/formPreview.png" alt="Patient Form"><br>Click to download forms</a>
   </div>
 </template>
 <style>
-.coming-soon {
-  font-weight: bolder;
-  color: blue;
+img.small {
+  max-height: 15%;
+  max-width: 15%;
 }
 </style>
