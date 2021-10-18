@@ -1,13 +1,13 @@
 <template>
   <div>
     <div class="container" id="map"></div>
-    <br>
+    <br />
     <div class="location">
       We are located at:
     </div>
     <div>
       7370 N Lincoln Ave Unit B
-      <br>
+      <br />
       Lincolnwood, IL 60712
     </div>
   </div>
