@@ -1,8 +1,8 @@
-import React, {useRef, useEffect, useState} from 'react';
+import React, { useEffect, useRef } from 'react';
 import './Location.scss';
-import mapboxgl from "mapbox-gl";
-import MapboxDirections from "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions";
-import "@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css";
+import mapboxgl from 'mapbox-gl';
+import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
+import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
 
 const token = process.env.REACT_APP_MAPBOX_ACCESS_TOKEN
 

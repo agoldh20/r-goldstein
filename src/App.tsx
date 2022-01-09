@@ -1,9 +1,9 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route, Link} from 'react-router-dom';
+import {BrowserRouter, Route, Routes} from 'react-router-dom';
 import './App.scss';
-import Home from "./components/Home/Home";
+import Home from './components/Home/Home';
 import Location from './components/Location/Location';
-import Header from "./components/Header/Header";
+import Header from './components/Header/Header';
 import About from './components/About/About';
 import Forms from './components/Forms/Forms';
 import Contact from './components/Contact/Contact';
