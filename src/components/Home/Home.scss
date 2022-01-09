@@ -1,0 +1,46 @@
+.home {
+
+  color: #498899;
+  font-size: large;
+
+  #storefront {
+    max-width: 75%;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .header-text {
+    font-weight: bold;
+    font-size: xx-large;
+  }
+
+  .convenience-text {
+    font-size: small;
+  }
+
+  .btn {
+    white-space: normal;
+    background-color:rgba(0,0,0,0.15);
+
+    &:hover {
+      background-color:rgba(0,0,0,.65);
+    }
+  }
+
+  .conditions-container {
+    max-width: 75%;
+
+    .conditions-header {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    ul {
+      text-align: left;
+
+      li {
+        font-weight: 600;
+      }
+    }
+  }
+}
