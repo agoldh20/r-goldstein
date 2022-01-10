@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Route, Routes} from 'react-router-dom';
+import {HashRouter, Route, Routes} from 'react-router-dom';
 import './App.scss';
 import Home from './components/Home/Home';
 import Location from './components/Location/Location';
@@ -12,7 +12,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <BrowserRouter>
+            <HashRouter>
                 <Header/>
                 <Routes>
                     <Route path="/" element={<Home/>}/>
@@ -21,7 +21,7 @@ const App = () => {
                     <Route path="/forms" element={<Forms/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                 </Routes>
-            </BrowserRouter>
+            </HashRouter>
         </div>
     );
 }
