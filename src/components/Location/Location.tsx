@@ -1,6 +1,7 @@
 import React, { useEffect, useRef } from 'react';
 import './Location.scss';
-import mapboxgl from 'mapbox-gl';
+// @ts-ignore
+import mapboxgl from '!mapbox-gl'; // eslint-disable-line import/no-webpack-loader-syntax
 import MapboxDirections from '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions';
 import '@mapbox/mapbox-gl-directions/dist/mapbox-gl-directions.css';
 
