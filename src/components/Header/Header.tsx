@@ -1,25 +1,26 @@
-import React from 'react';
-import {Link} from 'react-router-dom';
+import React, {FC} from 'react';
+import {HeaderProps} from './types'
+// import {Link} from 'react-router-dom';
 import './Header.scss';
 
-const Header = (): JSX.Element => (
+const Header: FC<HeaderProps> = ({setComponent}) => (
     <nav className="navbar navbar-expand-lg navbar-light">
-        <Link className="navbar-brand" to="/">Gold Rehab Services</Link>
-        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        <div className="navbar-brand" onClick={() => setComponent('home')}>Gold Rehab Services</div>
+        <div className="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
-        </button>
+        </div>
         <div className="collapse navbar-collapse" id="navbarNav">
             <div className="navbar-nav mr-auto">
-                <Link className="nav-item nav-link" to="/">Home</Link>
+                <div className="nav-item nav-link" onClick={() => setComponent('home')}>Home</div>
                 <span className="nav-link">|</span>
-                <Link className="nav-item nav-link" to="/about">Who we are</Link>
+                <div className="nav-item nav-link" onClick={() => setComponent('about')}>Who we are</div>
                 <span className="nav-link">|</span>
-                <Link className="nav-item nav-link" to="/location">Where we are</Link>
+                <div className="nav-item nav-link" onClick={() => setComponent('location')}>Where we are</div>
                 <span className="nav-link">|</span>
-                <Link className="nav-item nav-link" to="/forms">Forms</Link>
+                <div className="nav-item nav-link" onClick={() => setComponent('forms')}>Forms</div>
                 <span className="nav-link">|</span>
-                <Link className="nav-item nav-link" to="/contact">Contact Us</Link>
+                <div className="nav-item nav-link" onClick={() => setComponent('contact')}>Contact Us</div>
             </div>
             <span className="navbar-text">
                 Make an appointment today!
