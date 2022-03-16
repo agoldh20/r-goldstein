@@ -45,7 +45,6 @@ const Home = (): JSX.Element => {
     return (
         <div className="home">
             <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" alt="GRS Logo" src={logo}/>
-            <CovidDisclaimer/>
             <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" id="storefront" src={storefront} alt=""/>
             <div className="container">
                 <div className="card-body">
