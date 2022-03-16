@@ -1,5 +1,4 @@
 import React from 'react';
-import CovidDisclaimer from '../CovidDisclaimer/CovidDisclaimer';
 import './Home.scss';
 import logo from '../../assets/logo1-removebg.png';
 import storefront from '../../assets/grs-storefront-image.jpg';
